@@ -1,0 +1,208 @@
+/********************** Admin.js ***************/
+
+.admin-navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.admin-navbar a:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.admin{
+    padding-bottom: 100px;
+}
+
+/********************** EditArea.js ***************/
+
+.edit-area .px-3{
+    height: 80vh;
+}
+
+
+/********************** Areas.js ***************/
+.area .link{
+    text-decoration: none !important;
+}
+
+.area .link:hover{
+    color: rgba(0, 0, 0, 0.637) !important;
+}
+
+/********************** ChoosePlayer.js ***************/
+.choose-player{
+    width: 40rem !important;
+    background-color: rgb(244 255 244);
+  }
+
+.choose-player img{
+  height: 370px;
+}
+
+.arrow {
+    border: solid #0d6efd;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    cursor: pointer;
+  }
+
+.arrow:hover{
+  border: solid #0b5ed7;
+  border-width: 0 3px 3px 0;
+  transition: 0.3s ease;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-right: 15px;
+  }
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  margin-left: 85px;
+}
+  
+/********************** ChooseArea.js ***************/
+
+.quiz {
+  width: 624px !important;
+  height: 540px;
+  margin: 50px 0;
+  box-shadow: 0 0 8px;
+  padding: 0;
+}
+
+header {
+  height: 100px;
+  border-bottom: 1px solid #ddd;
+}
+
+.choose-area header {
+  position: relative;
+}
+
+.option {
+  width: 212px;
+  height: 120px;
+  margin: 50px;
+  box-shadow: 0 0 3px;
+  font-size: 28px;
+  padding: 0px 3px;
+}
+
+
+.option:hover {
+  cursor: pointer;
+  background-color: azure;
+}
+
+.optionButton {
+  display: block;
+  color: black !important; 
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.loading{
+  height:400px;
+  font-size: 24px;
+}
+
+.quiz .logout {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.quiz .back{
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  font-size: 16px;
+}
+/********************** Game.js ***************/
+
+.player {
+  width: 450px !important;
+  height: 540px;
+  margin: 50px 0;
+  box-shadow: 0 0 8px;
+  padding: 0;
+}
+
+.header{
+  height: 100px;
+  position: relative;
+}
+
+.player img {
+  height: 235px;
+  object-fit: cover;
+  margin: 0 50px;
+  width: 350px;
+}
+
+.text{
+  margin-top: 15px;
+}
+
+.player p, .player button {
+  font-size: 22px;
+}
+
+.player p{
+  font-weight: 600;
+}
+
+.quiz a{
+  font-size: 22px;
+}
+
+.quiz h1{
+  font-size: 25px;
+}
+
+.answer{
+  height: 440px;
+  position: relative;
+  width: 624px;
+}
+
+.answer h1{
+  margin-top: -70px;
+  font-size: 2.5rem;
+}
+
+.answer .correct{
+  color: blue;
+}
+
+.answer .wrong{
+  color: red;
+}
+
+.end-game{
+  color: blue;
+}
+
+.btn-success{
+  font-size: 24px !important;
+  margin-top: 30px;
+}
+
+.player .logout{
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  font-size: 16px;
+}
+
+.quiz .correctBtn{
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+}
